@@ -1,0 +1,34 @@
+{
+  "name": "todo-node",
+  "version": "1.0.0",
+  "description": "a simple todo-list registry api with Node_js",
+  "main": "server-todo.js",
+  "scripts": {
+    "start": "nodemon server-todo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "api",
+    "todo",
+    "todo-list"
+  ],
+  "author": "Yohan Saint-Martin - YoStM",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^3.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
